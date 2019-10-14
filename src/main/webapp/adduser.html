@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add user test app</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="header"><h1>Тестовая попытка добавления пользователя</h1></div>
+
+<form action="/adduserform/api/add" method="POST">
+    <div id="block-name">
+    Имя:
+    <br>
+    <input type="text" name="name">
+    <br><br>
+</div>
+    <div id="block-post">
+        Почта:
+        <br>
+        <input type="text" name="post">
+        <br><br>
+    </div>
+
+    <div id="block-age">
+    Возраст:
+    <br>
+    <input type="number" min="1" max="100" value="1" name="age">
+    </div>>
+    <br><br>
+    <div id="block-button">
+    <input type="submit" value="Submit">
+    </div>
+
+</form>
+
+</body>
+
+</html>

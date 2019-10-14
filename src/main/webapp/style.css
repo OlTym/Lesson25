@@ -1,0 +1,69 @@
+body{
+    background-image: url(image/img2.png); 
+}
+
+h1{
+    text-align: center;
+}
+
+#header{
+	padding: 3px;  
+	border-bottom:3px gray; 
+    border-bottom-style:ridge; 
+}
+
+#sidebar{	 
+	border-right:3px gray;
+	border-right-style:	ridge;
+    float: left;
+	width: 20%;
+    padding: 5px;  
+}
+
+#sidebar div{
+    padding: 2px; 
+}
+   
+#sidebar a{ 
+    display: block; 
+    padding: 2px; 
+    margin: 2px; 
+    font-size: 1.3em; 
+    text-decoration: none; 
+}
+
+#sidebar a:hover{ 
+    margin: 0; 
+	font-size:1.5em;
+}
+
+#content{
+	width: 79%;
+    padding: 5px; 
+    font-size:1.3em;
+}
+
+#footer{	   
+    border-top: 2 gray;
+	border-top-style:inset;
+    padding: 10px;  
+    color: #000; 
+    clear: both; 
+    font-size:1.1em;
+}
+
+#block-name{
+	text-align: center;
+	padding-top: 15px;  
+		
+}
+#block-post,
+#block-age,
+#block-button{
+	text-align: center;
+	padding-top:30px;
+	
+}
+
+
+
